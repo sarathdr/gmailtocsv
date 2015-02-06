@@ -13,8 +13,8 @@ $client = new Google_Client();
 $client->setApplicationName("Connect to Your Gmail Account");
 // Visit https://code.google.com/apis/console to generate your
 // oauth2_client_id, oauth2_client_secret, and to register your oauth2_redirect_uri.
- $client->setClientId('62114995812-bsg3b4mcerjil4stoi48vsh4vslpdeto.apps.googleusercontent.com');
- $client->setClientSecret('tTRyDKbgm_wtQ5TMYXdAw-A2');
+ $client->setClientId('insert_your_client-id>');
+ $client->setClientSecret('insert_your_secret_key');
  $client->setRedirectUri('http://gmailtocsv.sarathdr.com/index.php');
  $client->setDeveloperKey('insert_your_developer_key');
  $client->setScopes(array('https://mail.google.com/'));
