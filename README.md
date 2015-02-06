@@ -1,4 +1,4 @@
-#Download Gmail email as CSV 
+#Download Gmail emails as CSV 
 
 Demo code to download gmail email as CSV.
 
